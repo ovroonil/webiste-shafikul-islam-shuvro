@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>অভ্রনীল শুভ্র | Portfolio</title>
+  <meta name="description" content="Portfolio website generated from Behance projects for অভ্রনীল শুভ্র (Ovroo Blog)." />
+  <link rel="preconnect" href="https://mir-s3-cdn-cf.behance.net">
+  <link rel="preconnect" href="https://pps.services.adobe.com">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <nav class="nav">
+        <a class="nav__brand" href="#top" aria-label="Home">
+          <span class="dot"></span> Ovroo Blog
+        </a>
+        <div class="nav__right">
+          <a class="nav__link" href="#projects">Projects</a>
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <button class="btn btn--ghost" id="themeBtn" type="button" aria-label="Toggle theme">🌙</button>
+        </div>
+      </nav>
+
+      <div class="hero__content">
+        <div class="profile">
+          <img class="profile__img" id="profileImg" alt="অভ্রনীল শুভ্র profile photo" loading="lazy" />
+          <div class="profile__text">
+            <h1 class="h1" id="name">অভ্রনীল শুভ্র</h1>
+            <p class="lead" id="role">3D Artist • Digital Art • Visual Design</p>
+            <p class="meta" id="location">Dhaka, Bangladesh</p>
+
+            <div class="actions">
+              <a class="btn" id="behanceBtn" target="_blank" rel="noreferrer">View Behance</a>
+              <a class="btn btn--ghost" id="facebookBtn" target="_blank" rel="noreferrer">Facebook</a>
+              <a class="btn btn--ghost" href="#projects">See Projects ↓</a>
+            </div>
+
+            <p class="note">
+              This portfolio auto-displays selected Behance cover images. Click any project to open it on Behance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Featured Projects</h2>
+          <div class="filters">
+            <input id="search" class="input" placeholder="Search projects…" aria-label="Search projects" />
+            <select id="tag" class="select" aria-label="Filter by category">
+              <option value="">All categories</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid" id="grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div>
+          <h2 class="h2">About</h2>
+          <p class="p">
+            I create 3D environments, renders, and digital artworks—mixing mood, lighting, and storytelling.
+            This website is a lightweight portfolio pulled from my Behance projects.
+          </p>
+          <div class="chips">
+            <span class="chip">3D Environment</span>
+            <span class="chip">Rendering</span>
+            <span class="chip">Compositing</span>
+            <span class="chip">Graphic Design</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Quick Links</h3>
+          <ul class="list">
+            <li><a target="_blank" rel="noreferrer" href="https://www.behance.net/OvrooBlog">Behance Profile</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/OvRoO.Blog1/">Facebook</a></li>
+          </ul>
+          <p class="small muted">
+            Tip: Replace this About text, add your CV link, and include an email in Contact below.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div>
+          <h2 class="h2">Contact</h2>
+          <p class="p">Want to work together? Message me on Behance or Facebook.</p>
+          <div class="actions">
+            <a class="btn" target="_blank" rel="noreferrer" href="https://www.behance.net/OvrooBlog">Message on Behance</a>
+            <a class="btn btn--ghost" target="_blank" rel="noreferrer" href="https://www.facebook.com/OvRoO.Blog1/">Message on Facebook</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">How to publish</h3>
+          <ol class="list">
+            <li>Upload this folder to GitHub</li>
+            <li>Enable GitHub Pages (Settings → Pages)</li>
+            <li>Or drag-drop to Netlify / Vercel</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="muted">© 2025 অভ্রনীল শুভ্র. Built from Behance covers.</span>
+      <a class="muted" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
